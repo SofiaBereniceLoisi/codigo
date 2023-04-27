@@ -274,6 +274,7 @@ footer{
     width: 50%;
 }
 
+
 .variedad div div img{
     width: 15rem;
     border-radius: 10px;
@@ -587,7 +588,6 @@ footer{
         text-align: center;
         align-items: center;
     }
-
     .variedad-tarjetas div{
         padding-top: 30px;
         padding-bottom: 20px;
