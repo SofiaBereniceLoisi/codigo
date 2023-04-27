@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icono ventana -->
+    <link rel="icon" type="image/png" href="../img/icono2.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../style.css">
+    <title>Luffus</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html"><img src="../img/logosinfondo.png" alt="logo"></a>
+        </div>
+        <nav class="navbar-mid">
+            <ul class="opciones">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="./productos.html">Productos</a></li>
+                        <li><a class="dropdown-item" href=".minorista.html">Venta minorista</a></li>
+                        <li><a class="dropdown-item" href=".mayorista.html">Venta mayorista</a></li>
+                    </ul>
+                </li>
+                <li><a href=".about-us.html">Sobre nosotros</a></li>
+                <li><a href=".about-us.html#contacto">Contacto</a></li>
+                <li><a href=".compras.html">Compras</a></li>
+            </ul>
+        </nav>
+        <nav class="navbar-izq">
+            <ul>
+                <li><a href="../index.html"><i class='bx bxs-home'></i></i> Inicio</a></li>
+                <li><a href=""><i class='bx bxs-cart'></i> Carrito</a></li>
+                <li>
+                    <label for="Buscar"></label>
+                    <input type="search" name="buscar" placeholder="Búsqueda">
+                </li>
+            </ul>
+        </nav>
+        <nav class="menu">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menú
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./productos.html">Productos</a></li>
+                    <li><a class="dropdown-item" href=".about-us.html">Sobre nosotros</a></li>
+                    <li><a class="dropdown-item" href="./about-us.html#contacto">Contacto</a></li>
+                    <li><a class="dropdown-item" href="./compras.html">Compras</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a href="../index.html"><i class='bx bxs-user'></i> Inicio</a></li>
+                    <li><a href=""><i class='bx bxs-home'></i> Carrito</a></li>
+                </ul>
+            </li>
+        </nav>
+    </header>
+    <main class="pag-form">
+        <section class="form-container">
+            <div>
+                <div>
+                    <h1>Iniciar sesión</h1>
+                </div>
+                <div>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" placeholder="Ingrese su nombre">
+                    </div>
+                    <div>
+                        <label for="Email">Email</label>
+                        <input type="email" name="email" placeholder="Ingrese su email">
+                    </div>
+                    <div>
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" name="password" placeholder="Ingrese su contraseña">
+                    </div>
+                    <div class="enviar">
+                        <input type="submit" class="submit">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="logo-footer">
+            <img src="../img/logosinfondo.png" alt="">
+        </section>
+        <section class="redes-sociales">
+            <div class="iconos">
+                <ul>
+                    <li><a href="https://wa.me/1136236328?text=Hola!%20Quer%C3%ADa%20consultarte%20sobre" target="_blank"><i class='bx bxl-whatsapp'></i></a></li>
+                    <li><a href="https://www.instagram.com/luffusdeliss/" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                    <li><a href="http://surl.li/fxdcl" target="_blank"><i class='bx bx-envelope'></i></a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
