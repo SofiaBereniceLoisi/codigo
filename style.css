@@ -594,7 +594,6 @@ footer{
     }
 }
 
-
 @media screen and (max-width:992px){
     .agradecimientos{
         padding-top: 50px;
@@ -602,8 +601,8 @@ footer{
 }
 
 @media screen and (max-width:768px){
-    .mas-info div{
-        width: 50%;
+    .mas-info div, .centro-de-ayuda div{
+        width: 80%;
     }
     .carrousel{
         width: 70%;
