@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sofía Loisi</h1>
-<h3 align="center">A passionate frontend developer from Argentina</h3>
+<h3 align="center">A passionate almost-frontend developer from Argentina</h3>
 
 - 🔭 I’m currently working on [project Luffus](https://sofiabereniceloisi.github.io/luffus/)
 
