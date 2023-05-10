@@ -11,6 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <title>Luffus</title>
 </head>
 <body>
@@ -54,40 +56,40 @@
         </nav>
     </header>
     <main class="main-contenedor">
-        <section class="intro">
+        <section class="intro" data-aos="zoom-in-up">
             <h1>PRODUCTOS</h1>
             <p>Sorprendete con nuestra variedad y deleitá tu paladar con nuestros sabores más exclusivos.</p>
             <h2>NUESTRA VARIEDAD DE BROWNIES</h2>
         </section>
         <section class="container variedad">
             <div class="row justify-content-center align-items-center variedad-tarjetas">
-                <div class="col-lg-4">
+                <div class="col-lg-4" data-aos="zoom-in-up">
                     <img src="../img/browniecomun.jpg" alt="">
                     <p>Brownies comunes</p>
                     <p>Nuestros brownies de chocolate común XXL te dejarán sin palabras. Con su textura suave y su sabor a chocolate intenso, te garantizamos que no podrás comer solo uno.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4" data-aos="zoom-in-up">
                     <img src="../img/brownienuez.jpg" alt="">
                     <p>Brownies con nuez</p>
                     <p>¿Eres amante de los brownies y de los frutos secos? ¡Este brownie de nueces es perfecto para ti! Nuestro brownie tiene una consistencia suave y húmeda que contrasta perfectamente con las nueces crujientes. Un bocado te transportará a un paraíso de sabores y texturas. ¡No te quedes sin probarlo!</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4" data-aos="zoom-in-up">
                     <img src="../img/browniearandanos.jpg" alt="">
                     <p>Brownies con arándanos</p>
                     <p>¡Atención amantes del sabor y la calidad!  Disfruta de la combinación perfecta entre lo dulce y lo ácido. Cada bocado está lleno de arándanos jugosos que te darán una explosión de sabor en la boca.</p>
                 </div>
             </div>
         </section>
-        <section class="packs">
+        <section class="packs" data-aos="zoom-in-up">
             <h3>PACKS DE COMPRA</h3>
             <p>Para hacer una compra menor a 25 unidades, seleccioná la opcion de compra minorista. Si deseas acceder a promociones exclusivas superando el mínimo de compra de 25 unidades, seleccioná la opción de compra mayorista.</p>
         </section>
         <section>
-            <div class="contenedor">
+            <div class="contenedor" data-aos="zoom-in-up">
                 <a href="./minorista.html"><img src="../img/foto5.jpg" alt=""></a>
                 <div class="texto"><a href="./minorista.html">VENTA MINORISTA</a></div>
             </div>
-            <div class="contenedor mayorista">
+            <div class="contenedor mayorista" data-aos="zoom-in-up">
                 <a href="./mayorista.html"><img src="../img/foto4.jpg" alt=""></a>
                 <div class="texto"><a href="./mayorista.html">VENTA MAYORISTA</a></div>
             </div>
@@ -107,6 +109,12 @@
             </div>
         </section>
     </footer>
+    <!-- SCRIPT BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- SCRIPT AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>
