@@ -1,0 +1,67 @@
+// ----PAG. INICIAR SESIÓN------
+
+@import "../base/extends";
+@import "../base/listas";
+
+
+.pag-form{
+    background-image: url(../../img/foto2.jpg);
+    background-size: cover;
+}
+
+.form-container{
+    @extend %flexbox;
+    width: 100%;
+    height: 500px;
+}
+
+.form-container > div{
+    justify-content: center;
+    align-items: center;
+    background-color: nth($colores, 3);
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    padding: 40px;
+    padding-top: 20px;
+}
+
+.form-container div div{
+    flex-direction: column;
+}
+
+.form-container div div h1{
+    font-size: nth($f-size, 2);
+    padding: 10px;
+    @extend %t-align;
+    text-decoration: underline;
+}
+
+.form-container div div{
+    font-size: nth($f-size, 4);
+    padding-left: 5px;
+    justify-content: center;
+}
+
+.form-container div div div{
+    display: flex;
+    justify-content: center;
+}
+
+.form-container div div input{
+    margin: 10px;
+    margin-left: 0%;
+    border: 1px solid nth($colores, 5);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.enviar input{
+    background-color: nth($colores, 2);
+    color: nth($colores, 1);
+}
+
+.enviar input:hover{
+    font-weight: bold;
+    font-size: nth($f-size, 4);
+}

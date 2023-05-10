@@ -1,0 +1,37 @@
+
+@import "../base/extends";
+@import "../base/listas";
+
+// --MAIN INDEX------
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+/* ---CARROUSEL---- */
+
+.carrousel{
+    width: 30%;
+    height: auto;
+    padding: 15px;
+}
+
+.container-fluid{
+    @extend %flexbox;
+    @extend %t-align;
+    padding: 5%;
+}
+
+.carousel-caption a{
+    background-color:nth($colores, 2);
+    border-radius: 4px;
+    text-decoration: none;
+    color: nth($colores, 1);
+    padding: 5px;
+}
+
+.carousel-caption a:hover{
+    color: nth($colores, 1);
+    font-weight: bold;
+}

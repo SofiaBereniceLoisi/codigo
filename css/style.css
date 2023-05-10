@@ -1,610 +1,606 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+.main-contenedor, .dudas, .section-mayorista, .form-container, #contacto, .container-fluid, .logo-footer, .iconos ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Dosis', sans-serif;
+.contenedor, .intro p, .packs p, .main-contenedor section, .dudas div, .info-mayorista, .form-container div div h1, .envios p, .retiros p, .pagos h2, .envios h2, .retiros h2, .ayuda-indicaciones h2, .container-fluid {
+  text-align: center;
 }
 
 /* ----HEADER---- */
-
-.header{
-    background-color: #FFF8EA;
-    display: flex;
-    padding: 5px 25px  5px 10px;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 90px;
+.header {
+  background-color: #FFF8EA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px 5px 10px;
+  width: 100%;
+  height: 90px;
 }
 
 /* ----LOGO----- */
-
-.header .logo img{
-    width: 12rem;
-    height: auto;
-    transition: all 0.3s;
+.header .logo img {
+  width: 12rem;
+  height: auto;
+  transition: all 0.3s;
 }
 
-.header .logo img:hover{
-    transform: scale(1.2);
-    cursor: pointer;
+.header .logo img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 /* ----OPCIONES DEL CENTRO ----*/
-
-
-.header .navbar-mid .opciones li{
-    list-style: none;
+.header .navbar-mid .opciones li {
+  list-style: none;
 }
 
-.header .navbar-mid .opciones li a{
-    color: black;
-    text-decoration: none;
-    transition: all 0.3s;
-    padding: 5px 15px;
+.header .navbar-mid .opciones li a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s;
+  padding: 5px 15px;
 }
 
-.header .navbar-mid .opciones li a:hover{
-    background-color: #A18F7D;
-    border-radius: 4px;
-    color: #FFF8EA;
+.header .navbar-mid .opciones li a:hover {
+  background-color: #A18F7D;
+  border-radius: 4px;
+  color: #FFF8EA;
 }
 
-.opciones li{
-    display: inline-block;
-    padding: 5px 40px;
+.opciones li {
+  display: inline-block;
+  padding: 5px 40px;
 }
 
 /* ----OPCIONES IZQUIERDA---- */
-
-.header .navbar-izq{
-    padding-top: 10px;
+.header .navbar-izq {
+  padding-top: 10px;
 }
 
-.header .navbar-izq ul li{
-    list-style: none;
+.header .navbar-izq ul li {
+  list-style: none;
 }
 
-.header .navbar-izq ul li a{
-    color: black;
-    text-decoration: none;
+.header .navbar-izq ul li a {
+  color: black;
+  text-decoration: none;
 }
 
-.header .navbar-izq ul li a:hover{
-    font-weight: bold;
+.header .navbar-izq ul li a:hover {
+  font-weight: bold;
 }
 
 /* -----MENU------ */
-
-.menu{
-    display: none;
+.menu {
+  display: none;
 }
 
-.menu li{
-    list-style: none;
+.menu li {
+  list-style: none;
 }
 
-.menu li a{
-    color: black;
-    text-decoration: none;
+.menu li a {
+  color: black;
+  text-decoration: none;
 }
 
-.menu ul li a{
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+.menu ul li a {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.menu li a:hover{
-    background-color: #A18F7D;
-    border-radius: 4px;
-    color: #FFF8EA;
+.menu li a:hover {
+  background-color: #A18F7D;
+  border-radius: 4px;
+  color: #FFF8EA;
+}
+
+.main-contenedor, .dudas, .section-mayorista, .form-container, #contacto, .container-fluid, .logo-footer, .iconos ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor, .intro p, .packs p, .main-contenedor section, .dudas div, .info-mayorista, .form-container div div h1, .envios p, .retiros p, .pagos h2, .envios h2, .retiros h2, .ayuda-indicaciones h2, .container-fluid {
+  text-align: center;
 }
 
 /* ----FOOTER---- */
-
-footer{
-    background-color: #FFF8EA;
-    padding: 20px;
-    width: 100%;
+footer {
+  background-color: #FFF8EA;
+  padding: 20px;
+  width: 100%;
 }
 
-.iconos ul{
-    padding-left: 0px;
-    display: flex;
-    justify-content: center;
-} 
-
-.iconos ul li{
-    list-style: none;
-    padding: 5px;
+.iconos ul {
+  padding-left: 0px;
 }
 
-.iconos ul li a i{
-    color: black;
-    margin: 15px;
-    font-size: 30px;
-    transition: all 0.3s;
+.iconos ul li {
+  list-style: none;
+  padding: 5px;
 }
 
-.iconos ul li a i:hover{
-    transform: scale(1.2);
+.iconos ul li a i {
+  color: black;
+  margin: 15px;
+  font-size: 30px;
+  transition: all 0.3s;
 }
 
-.logo-footer{
-    display: flex;
-    justify-content: center;
+.iconos ul li a i:hover {
+  transform: scale(1.2);
 }
 
-.logo-footer img{
-    width: 14rem;
-    height: auto;
+.logo-footer img {
+  width: 14rem;
+  height: auto;
 }
 
-/* ----INDEX------------------------------------------------ */
-/* ---MAIN---- */
+.main-contenedor, .dudas, .section-mayorista, .form-container, #contacto, .container-fluid, .iconos ul, .logo-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.banner img{
-    width: 100%;
-    height: auto;
+.contenedor, .intro p, .packs p, .main-contenedor section, .dudas div, .info-mayorista, .form-container div div h1, .envios p, .retiros p, .pagos h2, .envios h2, .retiros h2, .ayuda-indicaciones h2, .container-fluid {
+  text-align: center;
+}
+
+.main-contenedor, .dudas, .section-mayorista, .form-container, #contacto, .container-fluid, .iconos ul, .logo-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor, .intro p, .packs p, .main-contenedor section, .dudas div, .info-mayorista, .form-container div div h1, .envios p, .retiros p, .pagos h2, .envios h2, .retiros h2, .ayuda-indicaciones h2, .container-fluid {
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
 }
 
 /* ---CARROUSEL---- */
-
-.carrousel{
-    width: 30%;
-    height: auto;
-    padding: 15px;
+.carrousel {
+  width: 30%;
+  height: auto;
+  padding: 15px;
 }
 
-.container-fluid{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    padding: 5%;
+.container-fluid {
+  padding: 5%;
 }
 
-.carousel-caption a{
-    background-color: #A18F7D;
-    border-radius: 4px;
-    text-decoration: none;
-    color: #FFF8EA;
-    padding: 5px;
+.carousel-caption a {
+  background-color: #A18F7D;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #FFF8EA;
+  padding: 5px;
 }
 
-.carousel-caption a:hover{
-    color: #FFF8EA;
-    font-weight: bold;
+.carousel-caption a:hover {
+  color: #FFF8EA;
+  font-weight: bold;
 }
 
-/* ---PAG. ABOUT US------------------------------------------ */
-
-.img img{
-    width: 40%;
-    height: auto;
+.main-contenedor, .dudas, .section-mayorista, .form-container, #contacto, .iconos ul, .logo-footer, .container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#contacto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contenedor, .intro p, .packs p, .main-contenedor section, .dudas div, .info-mayorista, .form-container div div h1, .envios p, .retiros p, .pagos h2, .envios h2, .retiros h2, .ayuda-indicaciones h2, .container-fluid {
+  text-align: center;
 }
 
-#contacto div ul li{
-    list-style: none;
+.img img {
+  width: 60%;
+  height: auto;
 }
 
-#contacto ul li a{
-    color: black;
-    text-decoration: none;
+#contacto div ul, #contacto p {
+  padding: 0px;
 }
 
-#contacto ul li a:hover{
-    font-weight: bold;
+#contacto div ul li {
+  list-style: none;
 }
 
-.agradecimientos{
-    padding: 30px;
-    padding-bottom: 0px;
+#contacto ul li a {
+  color: black;
+  text-decoration: none;
 }
 
-.grid-item img{
-    width: 100%;
-    height: 100%;
+#contacto ul li a:hover {
+  font-weight: bold;
 }
 
-.grid-container{
-    display: grid;
-    justify-content: center;
-    grid-template-rows: repeat(2, 150px);
-    grid-template-columns: 230px 270px 230px;
+.agradecimientos {
+  padding: 30px;
+  padding-bottom: 0px;
 }
 
-.foto1{
-    grid-row:1/3;
-    grid-column: 1/2;
+.item-img {
+  justify-content: center;
 }
 
-.foto2{
-    grid-row: 1/3;
-    grid-column: 2/3;
+.item-img img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
 }
 
-.foto3{
-    grid-row:1/2;
-    grid-column: 3/4;
+/* ----PAG. COMPRAS------- */
+.centro-de-ayuda h1 {
+  padding: 30px;
+  text-align: center;
 }
 
-.foto4{
-    grid-row:2/3;
-    grid-column:3/4;
+.ayuda-indicaciones {
+  width: 50%;
+  background-color: #FFF8EA;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* ----PAG. PRODUCTOS---------------------- */
-
-.main-contenedor{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.ayuda-indicaciones p {
+  text-align: justify;
 }
 
-.main-contenedor section{
-    text-align: center;
-    padding: 20px;
-    padding-bottom: 0px;
+.ayuda-indicaciones p a {
+  color: #A18F7D;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-.main-contenedor section h1{
-    font-size: 30px;
-    font-weight: bold;
+.ayuda-indicaciones p a:hover {
+  text-decoration: underline;
 }
 
-.intro p, .packs p{
-    text-align: center;
-} 
-
-.main-contenedor section h2{
-    margin-top: 50px;
-    font-size: 25px;
+.mas-info {
+  margin: 40px;
 }
 
-.intro, .packs{
-    width: 50%;
+.mas-info div {
+  background-color: #FFF8EA;
+  border-radius: 10px;
+  margin: 15px;
 }
 
-
-.variedad div div img{
-    width: 15rem;
-    border-radius: 10px;
+.pagos, .envios, .retiros {
+  padding: 15px 20px;
 }
 
-.variedad div div > p{
-    padding-top: 10px;
-    margin: 0px;
+.pagos h2, .envios h2, .retiros h2 {
+  font-size: 25px;
 }
 
-.packs h3{
-    margin: 10px;
-    margin-top: 40px;
+.pagos h3 {
+  font-size: 20px;
+  margin: 0px;
 }
 
-.packs p{
-    margin: 0px;
+.pagos p {
+  font-size: 15px;
 }
 
-.contenedor{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    margin: 15px;
-    padding-bottom: 10px;
+.pagos ul {
+  padding: 0px;
+  list-style: none;
+  text-align: center;
 }
 
-.mayorista{
-    padding-bottom: 15px;
+.main-contenedor, .dudas, .section-mayorista, .form-container, .iconos ul, .logo-footer, .container-fluid, #contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.contenedor img{
-    width: 40%;
-    height: auto;
-    border-radius: 5px;
-    transition: all 0.3s;
+.contenedor, .intro p, .packs p, .main-contenedor section, .dudas div, .info-mayorista, .form-container div div h1, .container-fluid, .ayuda-indicaciones h2, .pagos h2, .envios h2, .retiros h2, .envios p, .retiros p {
+  text-align: center;
 }
 
-.contenedor img:hover{
-    filter: opacity(.5);
+.pag-form {
+  background-image: url(../../img/foto2.jpg);
+  background-size: cover;
 }
 
-.texto{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.form-container {
+  width: 100%;
+  height: 500px;
 }
 
-.texto a{
-    font-size: auto;
-    color: #FFF8EA;
-    text-decoration: none;
-    background-color: #A18F7D;
-    padding: 10px;
-    border-radius: 5px;
+.form-container > div {
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 248, 234, 0.7254901961);
+  border-radius: 20px;
+  width: 300px;
+  height: 400px;
+  padding: 40px;
+  padding-top: 20px;
 }
 
-/* ----PAG. INICIAR SESION--------------------------------------- */
-
-.pag-form{
-    background-image: url(./img/foto2.jpg);
-    background-size: cover;
+.form-container div div {
+  flex-direction: column;
 }
 
-.form-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 500px;
+.form-container div div h1 {
+  font-size: 25px;
+  padding: 10px;
+  text-decoration: underline;
 }
 
-.form-container > div{
-    justify-content: center;
-    align-items: center;
-    background-color: #fff8eab9;
-    border-radius: 20px;
-    width: 300px;
-    height: 400px;
-    padding: 40px;
-    padding-top: 20px;
-    
+.form-container div div {
+  font-size: 15px;
+  padding-left: 5px;
+  justify-content: center;
 }
 
-.form-container div div{
-    flex-direction: column;
+.form-container div div div {
+  display: flex;
+  justify-content: center;
 }
 
-.form-container div div h1{
-    font-size: 25px;
-    padding: 10px;
-    text-align: center;
-    text-decoration: underline;
+.form-container div div input {
+  margin: 10px;
+  margin-left: 0%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px;
 }
 
-.form-container div div{
-    font-size: 14px;
-    padding-left: 5px;
-    justify-content: center;
+.enviar input {
+  background-color: #A18F7D;
+  color: #FFF8EA;
 }
 
-.form-container div div div{
-    display: flex;
-    justify-content: center;
+.enviar input:hover {
+  font-weight: bold;
+  font-size: 15px;
 }
 
-.form-container div div input{
-    margin: 10px;
-    margin-left: 0%;
-    border: 1px solid grey;
-    border-radius: 10px;
-    padding: 5px;
+.main-contenedor, .dudas, .section-mayorista, .iconos ul, .logo-footer, .container-fluid, #contacto, .form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.enviar input{
-    background-color: #A18F7D;
-    color: #FFF8EA;
+.contenedor, .intro p, .packs p, .main-contenedor section, .dudas div, .info-mayorista, .container-fluid, .ayuda-indicaciones h2, .pagos h2, .envios h2, .retiros h2, .envios p, .retiros p, .form-container div div h1 {
+  text-align: center;
 }
 
-.enviar input:hover{
-    font-weight: bold;
-    font-size: 15px;
+.info-mayorista {
+  width: 90%;
+  height: auto;
+  padding: 30px;
+  border: #A18F7D;
 }
 
-/* -----PAG. MAYORISTA y MINORISTA-------------------------------------- */
-
-.section-mayorista{
-    display: flex;
-    justify-content: center;
+.info-mayorista h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
 }
 
-.info-mayorista{
-    width: 90%; 
-    height: auto;
-    padding: 30px;
-    text-align: center;
-    border: #A18F7D;
+.info-mayorista p a {
+  color: black;
+  font-weight: bold;
 }
 
-.info-mayorista h1{
-    font-size: 30px;
-    font-weight: bold;
-    padding: 20px;
+.section-packs > div {
+  width: 100%;
 }
 
-.info-mayorista p a{
-    color: black;
-    font-weight: bold;
+.info-packs {
+  text-align: start;
 }
 
-.section-packs > div{
-    width: 100%;
+.info-packs .pack-25 {
+  margin-bottom: 20px;
 }
 
-.info-packs{
-    text-align: start;
+.info-packs div h3 {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.info-packs .pack-25{
-    margin-bottom: 20px;
+.info-packs div p {
+  margin: 0px;
 }
 
-.info-packs div h3{
-    margin: 0px;
-    font-size: 20px;
-    font-weight: bold;
+.pack-img img {
+  width: 50%;
 }
 
-.info-packs div p{
-    margin: 0px;
+.dudas div {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
-.pack-img img{
-    width: 50%;
+.dudas div h2 {
+  font-size: 25px;
 }
 
-.dudas{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.dudas div p a {
+  color: #A18F7D;
 }
 
-.dudas div{
-    width: 100%;
+.dudas div p a:hover {
+  font-weight: bold;
+}
+
+.por-menor div {
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+.pack-12 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main-contenedor, .iconos ul, .logo-footer, .container-fluid, #contacto, .form-container, .section-mayorista, .dudas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor, .intro p, .packs p, .main-contenedor section, .container-fluid, .ayuda-indicaciones h2, .pagos h2, .envios h2, .retiros h2, .envios p, .retiros p, .form-container div div h1, .info-mayorista, .dudas div {
+  text-align: center;
+}
+
+.main-contenedor {
+  flex-wrap: wrap;
+}
+
+.main-contenedor section {
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.main-contenedor section h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.main-contenedor section h2 {
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.intro, .packs {
+  width: 50%;
+}
+
+.variedad div div img {
+  width: 15rem;
+  border-radius: 10px;
+}
+
+.variedad div div > p {
+  padding-top: 10px;
+  margin: 0px;
+}
+
+.packs h3 {
+  margin: 10px;
+  margin-top: 40px;
+}
+
+.packs p {
+  margin: 0px;
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding-bottom: 10px;
+}
+
+.mayorista {
+  padding-bottom: 15px;
+}
+
+.contenedor img {
+  width: 40%;
+  height: auto;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.contenedor img:hover {
+  filter: opacity(0.5);
+}
+
+.texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.texto a {
+  font-size: auto;
+  color: #FFF8EA;
+  text-decoration: none;
+  background-color: #A18F7D;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dosis", sans-serif;
+}
+
+@media screen and (max-width: 1187px) {
+  .navbar-izq ul li label {
+    display: none;
+  }
+  .navbar-izq ul li input {
+    display: none;
+  }
+}
+@media screen and (max-width: 1133px) {
+  .navbar-izq, .navbar-mid {
+    display: none;
+  }
+  .menu {
+    display: inherit;
+  }
+}
+@media screen and (max-width: 995px) {
+  .info-packs {
+    margin: 20px;
     padding-top: 30px;
-    padding-bottom: 10px;
     text-align: center;
-}
-
-.dudas div h2{
-    font-size: 26px;
-}
-
-.dudas div p a{
-    color: #A18F7D;
-}
-
-.dudas div p a:hover{
-    font-weight: bold;
-}
-
-.por-menor div{
-    padding-top: 0px;
-    padding-bottom: 50px;
-}
-
-.pack-12{
-    padding-top: 20px;
+    align-items: center;
+  }
+  .variedad-tarjetas div {
+    padding-top: 30px;
     padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .agradecimientos {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #contacto {
+    padding-top: 50px;
+  }
+  .img img {
+    padding-top: 40px;
+    width: 40%;
+    height: auto;
+  }
+  .item-img img {
+    width: 70%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mas-info div, .centro-de-ayuda div {
+    width: 80%;
+  }
+  .carrousel {
+    width: 70%;
+  }
 }
 
-/* ----PAG.COMPRAS------------------------------------------- */
-
-.centro-de-ayuda h1{
-    padding: 30px;
-    text-align: center;
-}
-
-.ayuda-indicaciones{
-    width: 50%;
-    background-color: #FFF8EA;
-    border-radius: 10px;
-    padding: 20px 30px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.ayuda-indicaciones h2{
-    text-align: center;
-}
-
-.ayuda-indicaciones p{
-    text-align: justify;
-}
-
-.ayuda-indicaciones p a{
-    color: #A18F7D;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.ayuda-indicaciones p a:hover{
-    text-decoration: underline;
-}
-
-.mas-info{
-    margin:40px
-}
-
-.mas-info div{
-    background-color: #FFF8EA;
-    border-radius: 10px;
-    margin: 15px;
-}
-
-.pagos, .envios, .retiros{
-    padding: 15px 20px;
-}
-
-.pagos h2, .envios h2, .retiros h2{
-    text-align: center;
-    font-size: 25px;
-}
-
-.pagos h3{
-    font-size: 20px;
-    margin: 0px;
-}
-
-.pagos p{
-    font-size: 15px;
-}
-
-.pagos ul{
-    padding: 0px;
-    list-style: none;
-    text-align: center;
-}
-
-.envios p, .retiros p{
-    text-align: center;
-}
-
-
-/* ---MEDIA QUERYS---- */
-/* NAVBAR----- */
-
-@media screen and (max-width:1187px) {
-    .navbar-izq ul li label{
-        display: none;
-    } 
-    .navbar-izq ul li input{
-        display: none;
-    }
-}
-
-@media screen and (max-width:1133px){
-    .navbar-izq, .navbar-mid{
-        display: none;
-    }
-    .menu{
-        display: inherit;
-    }
-}
-
-@media screen and (max-width:995px){
-    .info-packs{
-        margin: 20px;
-        padding-top: 30px;
-        text-align: center;
-        align-items: center;
-    }
-    .variedad-tarjetas div{
-        padding-top: 30px;
-        padding-bottom: 20px;
-    }
-}
-
-@media screen and (max-width:992px){
-    .agradecimientos{
-        padding-top: 50px;
-    }
-}
-
-@media screen and (max-width:768px){
-    .mas-info div, .centro-de-ayuda div{
-        width: 80%;
-    }
-    .carrousel{
-        width: 70%;
-    }
-}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,87 @@
+
+// ---PAG. MAYORISTA Y MINORISTA----
+
+@import "../base/extends";
+@import "../base/listas";
+
+.section-mayorista{
+    @extend %flexbox;
+}
+
+.info-mayorista{
+    width: 90%; 
+    height: auto;
+    padding: 30px;
+    @extend %t-align;
+    border: nth($colores, 2);
+}
+
+.info-mayorista h1{
+    font-size: nth($f-size, 1);
+    font-weight: bold;
+    padding: 20px;
+}
+
+.info-mayorista p a{
+    color: nth($colores, 4);
+    font-weight: bold;
+}
+
+.section-packs > div{
+    width: 100%;
+}
+
+.info-packs{
+    text-align: start;
+}
+
+.info-packs .pack-25{
+    margin-bottom: 20px;
+}
+
+.info-packs div h3{
+    margin: 0px;
+    font-size: nth($f-size, 3);
+    font-weight: bold;
+}
+
+.info-packs div p{
+    margin: 0px;
+}
+
+.pack-img img{
+    width: 50%;
+}
+
+.dudas{
+    @extend %flexbox;
+}
+
+.dudas div{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    @extend %t-align;
+}
+
+.dudas div h2{
+    font-size: nth($f-size, 2);
+}
+
+.dudas div p a{
+    color: nth($colores, 2);
+}
+
+.dudas div p a:hover{
+    font-weight: bold;
+}
+
+.por-menor div{
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.pack-12{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

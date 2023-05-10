@@ -1,0 +1,85 @@
+
+@import "./base/header";
+@import "./base/footer";
+@import "./base/extends";
+@import "./components/main-index";
+@import "./components/about-us";
+@import "./components/compras";
+@import "./components/iniciarsesion";
+@import "./components/may-min";
+@import "./components/productos";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+// ----Media Querys-------
+
+
+@media screen and (max-width:1187px) {
+    .navbar-izq ul li label{
+        display: none;
+    } 
+    .navbar-izq ul li input{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1133px){
+    .navbar-izq, .navbar-mid{
+        display: none;
+    }
+    .menu{
+        display: inherit;
+    }
+}
+
+@media screen and (max-width:995px){
+    .info-packs{
+        margin: 20px;
+        padding-top: 30px;
+        text-align: center;
+        align-items: center;
+    }
+    .variedad-tarjetas div{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .agradecimientos{
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:991px){
+    #contacto{
+        padding-top: 50px;
+    }
+    .img img{
+        padding-top: 40px;
+        width:40%;
+        height: auto;
+    }
+    .item-img img{
+        width:70%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:768px){
+    .mas-info div, .centro-de-ayuda div{
+        width: 80%;
+    }
+    .carrousel{
+        width: 70%;
+    }
+}
+
+

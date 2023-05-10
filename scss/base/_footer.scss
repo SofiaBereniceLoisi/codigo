@@ -1,0 +1,40 @@
+@import "../base/listas";
+@import "../base/extends";
+
+/* ----FOOTER---- */
+
+footer{
+    background-color: nth($colores,1);
+    padding: 20px;
+    width: 100%;
+}
+
+.iconos ul{
+    padding-left: 0px;
+    @extend %flexbox;
+} 
+
+.iconos ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+.iconos ul li a i{
+    color: nth($colores, 4);
+    margin: 15px;
+    font-size: nth($f-size,1);
+    transition: all 0.3s;
+}
+
+.iconos ul li a i:hover{
+    transform: scale(1.2);
+}
+
+.logo-footer{
+    @extend %flexbox;
+}
+
+.logo-footer img{
+    width: 14rem;
+    height: auto;
+}

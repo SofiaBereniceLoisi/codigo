@@ -1,0 +1,71 @@
+/* ----PAG. COMPRAS------- */
+
+.centro-de-ayuda h1{
+    padding: 30px;
+    text-align: center;
+}
+
+.ayuda-indicaciones{
+    width: 50%;
+    background-color: nth($colores, 1);
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ayuda-indicaciones h2{
+    @extend %t-align;
+}
+
+.ayuda-indicaciones p{
+    text-align: justify;
+}
+
+.ayuda-indicaciones p a{
+    color: nth($colores,2);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ayuda-indicaciones p a:hover{
+    text-decoration: underline;
+}
+
+.mas-info{
+    margin:40px
+}
+
+.mas-info div{
+    background-color: nth($colores, 1);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.pagos, .envios, .retiros{
+    padding: 15px 20px;
+}
+
+.pagos h2, .envios h2, .retiros h2{
+    @extend %t-align;
+    font-size: nth($f-size, 2);
+}
+
+.pagos h3{
+    font-size: nth($f-size, 3);
+    margin: 0px;
+}
+
+.pagos p{
+    font-size: nth($f-size, 4);
+}
+
+.pagos ul{
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+.envios p, .retiros p{
+    @extend %t-align;
+}

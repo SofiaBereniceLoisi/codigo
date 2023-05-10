@@ -1,0 +1,93 @@
+
+// --PAG. PRODUCTOS-----
+
+@import "../base/listas";
+@import "../base/extends";
+
+.main-contenedor{
+    @extend %flexbox;
+    flex-wrap: wrap;
+}
+
+.main-contenedor section{
+    @extend %t-align;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.main-contenedor section h1{
+    font-size: nth($f-size, 1);
+    font-weight: bold;
+}
+
+.intro p, .packs p{
+    @extend %t-align;
+} 
+
+.main-contenedor section h2{
+    margin-top: 50px;
+    font-size: nth($f-size, 2);
+}
+
+.intro, .packs{
+    width: 50%;
+}
+
+
+.variedad div div img{
+    width: 15rem;
+    border-radius: 10px;
+}
+
+.variedad div div > p{
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.packs h3{
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.packs p{
+    margin: 0px;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    @extend %t-align;
+    margin: 15px;
+    padding-bottom: 10px;
+}
+
+.mayorista{
+    padding-bottom: 15px;
+}
+
+.contenedor img{
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.contenedor img:hover{
+    filter: opacity(.5);
+}
+
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.texto a{
+    font-size: auto;
+    color: nth($colores, 1);
+    text-decoration: none;
+    background-color: nth($colores, 2);
+    padding: 10px;
+    border-radius: 5px;
+}
